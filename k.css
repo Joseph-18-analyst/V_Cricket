@@ -1,0 +1,148 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+background-color: #0F0;
+color: #600;
+text-align: center;
+text-shadow: .2em .2em silver;
+
+}
+#nav
+{
+background-color: #222;
+}
+#nav_wrapper
+{
+width: 960px;
+margin: 0;
+text-align: left;	
+}
+#nav ul
+{
+list-style-type: none;	
+padding: 0;
+margin: 0;
+position: relative;
+}
+#nav ul li
+{
+display: inline-block;
+}
+#nav ul li:hover
+{
+background-color: #333;
+}
+#nav ul li a,visited
+{
+color: #ccc;
+padding: 15px;
+display: block;
+text-decoration:none;
+}
+#nav ul li a:hover
+{
+color: #ccc;
+text-decoration: none;
+}
+#nav ul li:hover ul
+{
+display: block;
+}
+#nav ul ul
+{
+display: none;	
+position: absolute;
+background-color: #333;
+border: 5px solid #222;
+border-top: 0;
+margin-left: -5px;
+min-width: 200px;
+}
+#nav ul ul li
+{
+display: block;	
+}
+#nav ul ul li a,visited
+{
+color: #ccc;	
+}
+#nav ul ul li a:hover
+{
+color: #099;	
+}
+p 
+{margin-bottom: 700 px;
+margin-top: 19px;
+margin-right: 400px;
+margin-left: 10px;}
+p{
+color: #F00;
+background-color: #0FF;
+}
+body{
+background-image:url(../../downloads/bat.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position: bottom;
+
+}
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 10pt;
+padding: 0;
+margin: 0;
+}
+.active {
+border: solid;
+color: #FFF;
+font-weight: bold;
+padding: .2em 1em;
+
+}
+#right
+{
+	size:auto;
+color: #F00;
+text-align:right;
+background-color: #0F0;
+}
+#footer
+{
+color: #F00;
+text-align:right;
+background-color: #6FF ;
+}
+#bottom
+{
+	text-align-last:right;
+	text-align: end;
+	background-color:#CFF;
+	
+	 }
+#emerging
+{
+
+color: #00F;
+font:"Times New Roman", Times, serif;	
+font-size: 14px;
+}
+
+
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 10pt;
+}
+
+.ac {
+background-color:#0F0;
+color: #ffffff;
+font-weight: bold;
+padding-left: 5px;
+overflow: hidden;
+}
+#worldcup
+
+
+
